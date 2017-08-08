@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- リスト1 -->
+    <TextView
+        android:id="@+id/distance1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="距離"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/distanceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/distance1m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="74dp"
+        android:text="m"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/area1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:text="エリア: "
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/areaView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/area1"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="100dp"
+        android:text="Beacon番号: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/numberView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@id/number1"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/battery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="220dp"
+        android:text="電池交換: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/batteryView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@id/battery1"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="90dp"
+        android:background="#737373">
+    </TextView>
+
+
+    <!-- リスト2 -->
+    <TextView
+        android:id="@+id/distance2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:text="距離"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/distanceView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/distance2m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_marginLeft="74dp"
+        android:text="m"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/area2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="100dp"
+        android:text="エリア: "
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/areaView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_toRightOf="@id/area2"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_marginLeft="100dp"
+        android:text="Beacon番号: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/numberView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_toRightOf="@id/number2"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/battery2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_marginLeft="220dp"
+        android:text="電池交換: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/batteryView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="138dp"
+        android:layout_toRightOf="@id/battery2"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="180dp"
+        android:background="#737373">
+    </TextView>
+
+
+    <!-- リスト3 -->
+    <TextView
+        android:id="@+id/distance3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="距離"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/distanceView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/distance3m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="74dp"
+        android:text="m"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/area3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:text="エリア: "
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/areaView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/area3"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="100dp"
+        android:text="Beacon番号: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/numberView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_toRightOf="@id/number3"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/battery3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="220dp"
+        android:text="電池交換: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/batteryView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_toRightOf="@id/battery3"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="270dp"
+        android:background="#737373">
+    </TextView>
+
+
+    <!-- リスト4 -->
+    <TextView
+        android:id="@+id/distance4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20dp"
+        android:text="距離"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/distanceView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/distance4m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:layout_marginLeft="74dp"
+        android:text="m"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/area4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="100dp"
+        android:text="エリア: "
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/areaView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_toRightOf="@id/area4"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:layout_marginLeft="100dp"
+        android:text="Beacon番号: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/numberView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:layout_toRightOf="@id/number4"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/battery4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:layout_marginLeft="220dp"
+        android:text="電池交換: "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/batteryView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="318dp"
+        android:layout_toRightOf="@id/battery4"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="360dp"
+        android:background="#737373">
+    </TextView>
+
+
+    <!-- コメント -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>
