@@ -1,1 +1,1 @@
-# BLEScanner
+# BLEScanner for Umechika
